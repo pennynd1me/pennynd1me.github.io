@@ -2,7 +2,7 @@
 
 ## 시작하기
 
-pennynd1me.github.io
+https://pennynd1me.github.io
 
 블로그 스켈레톤을 fork 하세요.
 
