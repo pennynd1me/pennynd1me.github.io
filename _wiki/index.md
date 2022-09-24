@@ -1,4 +1,3 @@
----
 layout  : wikiindex
 title   : wiki
 toc     : true
@@ -9,7 +8,7 @@ regenerate: true
 
 ## wiki items
 
-* [[mathjax-latex]]
+[[작성-테스트]]
 
 ---
 
@@ -17,7 +16,7 @@ regenerate: true
 <div>
     <ul>
 {% for post in site.posts %}
-    {% if post.public != false %}
+  {% if post.public != false %}
         <li>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
                 {{ post.title }}
