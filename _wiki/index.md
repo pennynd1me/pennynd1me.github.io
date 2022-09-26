@@ -9,7 +9,7 @@ regenerate: true
 ## wiki items
 
 [[작성-테스트]]
-
+[[post-test]]
 ---
 
 ## blog posts
