@@ -44,7 +44,7 @@ utterances:
   repo: pennynd1me/pennynd1me.github.io
   issue-term: url
   label: Comment
-  branch: master
+  branch: main
 
 google_analytics:
   ua:
