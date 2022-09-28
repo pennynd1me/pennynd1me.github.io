@@ -1,16 +1,17 @@
+---
 layout  : wikiindex
 title   : wiki
 toc     : true
 public  : true
 comment : false
+updated : 2022-09-27 15:04:59 +0900
 regenerate: true
 ---
 
 ## wiki items
-
-[[작성-테스트]]
-[[post-test]]
----
+= Header 1 =
+* [[작성-테스트]]
+* [[post-test]]
 
 ## blog posts
 <div>
