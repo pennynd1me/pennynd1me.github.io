@@ -4,20 +4,23 @@ title   : wiki
 toc     : true
 public  : true
 comment : false
-updated : 2022-09-27 15:04:59 +0900
+updated : 2022-09-28 22:10:23 +0900
 regenerate: true
 ---
 
 ## wiki items
-= Header 1 =
+
 * [[작성-테스트]]
 * [[post-test]]
+	* [[나는-왜-안되는걸까]]
+	
 
-## blog posts
+---
+## Diary 
 <div>
     <ul>
 {% for post in site.posts %}
-  {% if post.public != false %}
+    {% if post.public == true %}
         <li>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
                 {{ post.title }}
@@ -27,4 +30,3 @@ regenerate: true
 {% endfor %}
     </ul>
 </div>
-
