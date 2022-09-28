@@ -4,19 +4,15 @@ title   : wiki
 toc     : true
 public  : true
 comment : false
-updated : 2022-09-28 22:10:23 +0900
+updated : 2022-09-28 22:38:32 +0900
 regenerate: true
 ---
 
 ## wiki items
 
-* [[작성-테스트]]
-* [[post-test]]
-	* [[나는-왜-안되는걸까]]
-	
 
 ---
-## Diary 
+## Diary
 <div>
     <ul>
 {% for post in site.posts %}
