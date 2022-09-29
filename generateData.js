@@ -13,7 +13,6 @@ function main() {
     const pageMap = {};
 
     getFiles('./_wiki', 'wiki', list);
-    getFiles('./blog', 'blog', list);
 
     const dataList = list.map(file => collectData(file))
         .filter((row) => row != null)
