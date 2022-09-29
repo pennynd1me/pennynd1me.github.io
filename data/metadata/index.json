@@ -2,8 +2,9 @@
  "type": "wiki",
  "title": "wiki",
  "url": "/wiki/index",
- "updated": "2022-09-29 16:12:24 +0900",
+ "updated": "2022-09-29 20:00:31 +0900",
  "children": [
-  "create-wiki"
+  "create-wiki",
+  "memo"
  ]
 }
