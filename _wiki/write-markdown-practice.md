@@ -3,7 +3,7 @@ layout  : wiki
 title   : 마크다운 작성 연습
 summary : 
 date    : 2022-09-29 21:07:11 +0900
-updated : 2022-09-30 00:49:03 +0900
+updated : 2022-09-30 01:36:40 +0900
 tag     : practice
 toc     : true
 public  : true
@@ -151,14 +151,20 @@ This is also code block.
 
 ```markdown
 각주[^fn]
+
 [^fn]: 각주에 대한 설명
+
 각주2[^footnote]
+
 [^footnote]: 각주2에 대한 설명
 ```
 
 각주[^fn]
+
 [^fn]: 각주에 대한 설명
+
 각주2[^footnote]
+
 [^footnote]: 각주2에 대한 설명
 
 # 표 입력
@@ -247,6 +253,6 @@ github 이슈 댓글에 이미지를 붙여넣으면 업로드 되며 다음과 
  [외부 링크에 외부 링크 아이콘 추가](https://github.com/johngrib/johngrib.github.io/commit/214c7f3593557aff064d41b1b573881279b9d9e5)
 
 # 참고 링크
-- [이종립님의 블로그](https://johngrib.github.io/wiki/my-wiki/#%EC%8B%A4%EC%A0%9C%EB%A1%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%82%98)
+- [이종립님의 위키](https://johngrib.github.io/wiki/my-wiki/#%EC%8B%A4%EC%A0%9C%EB%A1%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%82%98)
 - [kramdown-syntax](https://kramdown.gettalong.org/syntax.html)
 
