@@ -1,0 +1,11 @@
+{
+ "type": "wiki",
+ "title": "인터넷",
+ "summary": "",
+ "parent": "index",
+ "url": "/wiki/Internet",
+ "updated": "2022-09-30 14:22:53 +0900",
+ "children": [
+  "how-does-the-internet-work"
+ ]
+}
