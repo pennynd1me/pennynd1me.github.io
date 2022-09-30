@@ -4,25 +4,22 @@ title   : wiki
 toc     : true
 public  : true
 comment : false
-updated : 2022-09-28 22:38:32 +0900
+updated : 2022-09-30 15:23:07 +0900
 regenerate: true
 ---
 
-## wiki items
+## 미분류
 
+- [[create-wiki]]
+- [[write-markdown-practice]]
+- [[backend-roadmap]]
+
+## [[Internet]]
+
+- [[how-does-the-internet-work]]
+
+## [[Memo]]
+
+- [[/Memo/2022]]
 
 ---
-## Diary
-<div>
-    <ul>
-{% for post in site.posts %}
-    {% if post.public == true %}
-        <li>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                {{ post.title }}
-            </a>
-        </li>
-    {% endif %}
-{% endfor %}
-    </ul>
-</div>
