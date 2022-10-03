@@ -4,7 +4,7 @@ title   : wiki
 toc     : true
 public  : true
 comment : false
-updated : 2022-09-30 15:23:07 +0900
+updated : 2022-10-03 23:43:03 +0900
 regenerate: true
 ---
 
@@ -21,5 +21,8 @@ regenerate: true
 ## [[Memo]]
 
 - [[/Memo/2022]]
+
+## [[CLI]]
+
 
 ---
