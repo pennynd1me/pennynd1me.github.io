@@ -3,9 +3,7 @@
  "title": "메모",
  "summary": "",
  "parent": "index",
- "url": "/wiki/Memo",
+ "url": "/wiki/memo",
  "updated": "2022-09-29 20:04:46 +0900",
- "children": [
-  "memo/2022"
- ]
+ "children": []
 }

@@ -4,7 +4,7 @@ title   : wiki
 toc     : true
 public  : true
 comment : false
-updated : 2022-10-03 23:43:03 +0900
+updated : 2022-10-04 15:17:43 +0900
 regenerate: true
 ---
 
@@ -18,9 +18,9 @@ regenerate: true
 
 - [[how-does-the-internet-work]]
 
-## [[Memo]]
+## [[memo]]
 
-- [[/Memo/2022]]
+- [[/memo/2022]]
 
 ## [[CLI]]
 
