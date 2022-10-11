@@ -6,6 +6,11 @@
  "url": "/wiki/Internet",
  "updated": "2022-09-30 14:22:53 +0900",
  "children": [
-  "how-does-the-internet-work"
+  "browers-and-how-they-work",
+  "dns-and-how-it-works",
+  "how-does-the-internet-work",
+  "what-is-domain-name",
+  "what-is-hosting",
+  "what-is-http"
  ]
 }
