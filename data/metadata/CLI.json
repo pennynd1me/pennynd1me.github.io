@@ -5,5 +5,7 @@
  "parent": "index",
  "url": "/wiki/CLI",
  "updated": "2022-10-03 23:43:52 +0900",
- "children": []
+ "children": [
+  "CLI/traceroute"
+ ]
 }

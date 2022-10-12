@@ -1,0 +1,9 @@
+{
+ "type": "wiki",
+ "title": "traceroute 명령어",
+ "summary": "네트워크 상태 진단 도구",
+ "parent": "CLI",
+ "url": "/wiki/CLI/traceroute",
+ "updated": "2022-10-12 18:08:03 +0900",
+ "children": []
+}

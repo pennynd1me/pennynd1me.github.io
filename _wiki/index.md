@@ -4,7 +4,7 @@ title   : wiki
 toc     : true
 public  : true
 comment : false
-updated : 2022-10-04 15:17:43 +0900
+updated : 2022-10-12 17:34:24 +0900
 regenerate: true
 ---
 
@@ -17,6 +17,11 @@ regenerate: true
 ## [[Internet]]
 
 - [[how-does-the-internet-work]]
+- [[what-is-http]]
+- [[browers-and-how-they-work]]
+- [[dns-and-how-it-works]]
+- [[what-is-domain-name]]
+- [[what-is-hosting]]
 
 ## [[memo]]
 
@@ -24,5 +29,5 @@ regenerate: true
 
 ## [[CLI]]
 
-
+- [[/CLI/traceroute]]
 ---
