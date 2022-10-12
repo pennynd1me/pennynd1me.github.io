@@ -1,4 +1,5 @@
 ;(function() {
+    // 화면 상단의 해시태그에 링크를 걸어준다.
     var tags = document.querySelectorAll('.post-tag');
     if(tags == null || tags.length < 1) {
         return;
@@ -21,6 +22,7 @@
     return;
 })();
 ;(function() {
+    // 본문 전체의 vimwiki 링크를 html 링크로 변환한다.
     var post = document.querySelector('article.post-content');
 
     if(post == null) {
@@ -41,26 +43,42 @@
     })(post);
 
     function link(content) {
-        // (1) "\[[escape]]" 와 같이 앞에 "\"가 있다면 "\[\[escape\]\]" 로 바꾸기만 하고 링크는 생성하지 않는다.
+        // (주석처리) "\[[escape]]" 와 같이 앞에 "\"가 있다면 "\[\[escape\]\]" 로 바꾸기만 하고 링크는 생성하지 않는다.
+        //                            \[[      ]]
         content = content.replace(/\\\[\[(.+?)\]\]/g, '\\[\\[$1\\]\\]');
-        // (2) 다음과 같은 문자열을 <a href="/wiki/document">document-name</a> 으로 replace하여 링크를 만든다.
+
+        // (태그, 타이틀 처리) "[[#tagName#]]{text}"를 <a href="/wiki/tagName#">text</a> 로 replace하여 링크를 만든다.
+        //                           [[#           #]]      {            }
+        content = content.replace(/\[\[#([^\[\]]+?)#\s*\]\]\{([^\{\}]+?)\}/g,
+            '<a href="/tag#$1" class="inner-link labeled-link" data-name="$1"><sup class="tagged-link"/></sup>$2</a>');
+
+        // (태그 처리) "[[#tagName#]]"을 <a href="/wiki/tagName#">tagName</a> 로 replace하여 링크를 만든다.
+        //                           [[#           #]]
+        content = content.replace(/\[\[#([^\[\]]+?)#\s*\]\]/g,
+            '<a href="/tag#$1" class="inner-link labeled-link" data-name="$1"><sup class="tagged-link"/></sup>$1</a>');
+
+        // (추가 타이틀 처리) 다음과 같은 문자열을 <a href="/wiki/document">document-name</a> 으로 replace하여 링크를 만든다.
         //  [[document]]{document-name}       => <a href="/wiki/document">document-name</a>
         //  [[/document]]{document-name}      => <a href="/wiki/document">document-name</a>
         //  [[/dir/document]]{document-name}  => <a href="/wiki/dir/document">document-name</a>
-        content = content.replace(/\[\[\/?([^\[\]]+?)\s*\]\]\{([^\{\}]+?)\}/g, '<a href="/wiki/$1" class="inner-link labeled-link" data-name="$1">$2</a>');
-        // (3) "[[document]]"가 있다면 <a href="/wiki/document">document</a> 와 같이 replace하여 링크를 만든다.
-        //  예제는 (2)와 거의 비슷하다.
-        content = content.replace(/\[\[\/?(.+?)\s*\]\]/g, '<a href="/wiki/$1" class="inner-link no-labeled-link" data-name="$1">$1</a>');
-        // (4) (1)에서 이스케이프한 문자열을 본래 표현하려 한 형식으로 되돌린다.
+        content = content.replace(/\[\[\/?([^\[\]]+?)\s*\]\]\{([^\{\}]+?)\}/g,
+            '<a href="/wiki/$1" class="inner-link labeled-link" data-name="$1">$2</a>');
+
+        // "[[document]]"가 있다면 <a href="/wiki/document">document</a> 와 같이 replace하여 링크를 만든다.
+        //  예제는 (추가 타이틀 처리)와 거의 비슷하다.
+        content = content.replace(/\[\[\/?(.+?)\s*\]\]/g,
+            '<a href="/wiki/$1" class="inner-link no-labeled-link" data-name="$1">$1</a>');
+
+        // (주석처리)에서 이스케이프한 문자열을 본래 표현하려 한 형식으로 되돌린다.
         content = content.replace(/\\\[\\\[(.+?)\\\]\\\]/g, '[[$1]]');
+
         return content;
     }
 
 })();
 
-const isRandom = /[/]wiki[/]index[/]?#random$/.test(window.location.href);
-
-;isRandom || (function() {
+;(function() {
+    // 파일 이름이 링크 텍스트로 드러난 것을 문서의 타이틀로 교체해준다.
     const list = document.querySelectorAll('.no-labeled-link');
 
     for (var i = 0; i < list.length; i++) {
@@ -97,13 +115,15 @@ const isRandom = /[/]wiki[/]index[/]?#random$/.test(window.location.href);
             });
     }
 })();
-;isRandom || (function() {
+
+;(function() {
+    // 외부 링크에 표시를 달아준다.
     const links = document.links;
 
     for (let i = 0; i < links.length; i++) {
         const link = links[i];
         const url = link.getAttribute('href');
-        if (/^(https?:\/\/)?johngrib\.github\.io/.test(url) || /^[\/#]/.test(url)) {
+        if (/^(https?:\/\/)?pennynd1me\.github\.io/.test(url) || /^[\/#]/.test(url)) {
             // inner link
         } else {
             // external link
@@ -122,7 +142,7 @@ const isRandom = /[/]wiki[/]index[/]?#random$/.test(window.location.href);
         const id = note.getAttribute('href')
             .replace(/^#/, "");
         const text = document.getElementById(id).innerText
-            .replace(/ ↩.*$/, "");
+            .replace(/ ↩.*$/, "");
         note.setAttribute('title', text);
     }
 })();
