@@ -3,7 +3,7 @@ layout  : wiki
 title   : HTTP
 summary : HTTP에 대해
 date    : 2022-10-11 15:41:01 +0900
-updated : 2022-10-18 23:13:23 +0900
+updated : 2022-10-18 23:41:37 +0900
 tag     : Internet
 toc     : true
 public  : true
@@ -80,7 +80,6 @@ URL은 크게 3개의 부분으로 나뉜다.
 URL 마지막에 `#`과 함께 붙는다.
 서버에 전달되지 않으며 브라우저가 서버로부터 리소스를 받은 이후 처리된다.
 
-
 #### URN
 
 - Uniform Resource Name
@@ -132,6 +131,31 @@ sec-ch-ua: "Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"
 sec-ch-ua-mobile: ?0
 sec-ch-ua-platform: "macOS"
 ```
+### Method
+
+- 클라이언트가 서버의 자원에 수행할 행동을 명시한다.
+
+#### GET
+
+- 자원을 요청할 때 사용한다.
+
+#### HEAD
+
+- 기본적으로 GET과 같지만 헤더 정보만 돌려준다.
+- 테스트, 정보 변경/존재 여부 확인, 자료의 크기 조사등의 용도로 사용할 수 있다.
+
+#### POST
+
+- 서버 자원에 데이터를 전송할 때 사용한다.
+- 멱등성(impotent)을 갖지 않는다.
+
+#### PUT
+
+- 지정한 자원을 변경하고 싶을 때 사용한다.
+
+#### DELETE
+
+- 지정한 자원을 삭제할 때 사용한다.
 
 ### Response
 
