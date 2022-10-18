@@ -4,7 +4,7 @@ title   : wiki
 toc     : true
 public  : true
 comment : false
-updated : 2022-10-12 17:34:24 +0900
+updated : 2022-10-12 18:11:01 +0900
 regenerate: true
 ---
 
@@ -30,4 +30,6 @@ regenerate: true
 ## [[CLI]]
 
 - [[/CLI/traceroute]]
+
+
 ---

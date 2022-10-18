@@ -3,7 +3,7 @@ layout  : wiki
 title   : 인터넷의 작동 원리
 summary : How does the internet work?
 date    : 2022-09-30 14:13:25 +0900
-updated : 2022-10-12 17:23:30 +0900
+updated : 2022-10-12 22:04:55 +0900
 tag     : Internet
 toc     : true
 public  : true
@@ -118,7 +118,7 @@ latex   : false
 
 이 웹사이트는 github pages를 통해 hosting 되어 인터넷을 통해 어딘가에 있는 서버에서 돌아가고있다.
 
-traceroute 커맨드는 IP 패킷을 보내 경로를 추적할 수 있다.
+[[/CLI/traceroute]]로 IP 패킷을 보내 경로를 추적할 수 있다.
 
 ```zsh
 $ traceroute -I -q1 pennynd1me.github.io
