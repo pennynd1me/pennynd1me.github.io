@@ -2,8 +2,8 @@
  "type": "wiki",
  "title": "Jekyll+github.io+vimwiki로 위키 겸 블로그 만들기",
  "summary": "블로그를 따라 만들며 공부한 내용 기록",
- "parent": "index",
+ "parent": "Blog",
  "url": "/wiki/create-wiki",
- "updated": "2022-09-29 20:39:47 +0900",
+ "updated": "2022-12-16 18:38:00 +0900",
  "children": []
 }
