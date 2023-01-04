@@ -4,13 +4,12 @@ title   : wiki
 toc     : true
 public  : true
 comment : false
-updated : 2022-10-12 18:11:01 +0900
+updated : 2022-12-16 18:39:11 +0900
 regenerate: true
 ---
 
 ## 미분류
 
-- [[create-wiki]]
 - [[write-markdown-practice]]
 - [[backend-roadmap]]
 
@@ -18,7 +17,7 @@ regenerate: true
 
 - [[how-does-the-internet-work]]
 - [[what-is-http]]
-- [[browers-and-how-they-work]]
+- [[browsers-and-how-they-work]]
 - [[dns-and-how-it-works]]
 - [[what-is-domain-name]]
 - [[what-is-hosting]]
@@ -31,5 +30,7 @@ regenerate: true
 
 - [[/CLI/traceroute]]
 
+## [[Blog]]
 
+- [[create-wiki]]
 ---

@@ -3,7 +3,7 @@ layout  : wiki
 title   : 백엔드 로드맵
 summary : 
 date    : 2022-09-30 14:57:37 +0900
-updated : 2022-09-30 16:40:20 +0900
+updated : 2022-11-02 23:40:54 +0900
 tag     : 
 toc     : true
 public  : true
@@ -19,8 +19,8 @@ latex   : false
 ## 인터넷
 
 - [[how-does-the-internet-work]]
-- HTTP
-- 브라우저와 작동 원리
+- [[what-is-http]]
+- [[browsers-and-how-they-work]]
 - DNS와 작동 원리
 - 도메인 네임
 - 호스팅
