@@ -1,9 +1,9 @@
 ---
 layout  : category
-title   : 인터넷
+title   : Git
 summary : 
-date    : 2022-09-30 14:17:21 +0900
-updated : 2024-02-14 21:19:17 +0900
+date    : 2024-02-14 21:13:09 +0900
+updated : 2024-02-14 21:18:46 +0900
 tag     : 
 toc     : true
 public  : true

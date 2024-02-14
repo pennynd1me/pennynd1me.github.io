@@ -1,9 +1,9 @@
 ---
 layout  : category
-title   : 인터넷
+title   : Java
 summary : 
-date    : 2022-09-30 14:17:21 +0900
-updated : 2024-02-14 21:19:17 +0900
+date    : 2024-02-14 21:14:30 +0900
+updated : 2024-02-14 21:18:55 +0900
 tag     : 
 toc     : true
 public  : true
