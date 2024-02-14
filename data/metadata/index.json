@@ -2,12 +2,14 @@
  "type": "wiki",
  "title": "wiki",
  "url": "/wiki/index",
- "updated": "2022-12-16 18:39:11 +0900",
+ "updated": "2024-02-14 21:20:22 +0900",
  "children": [
   "backend-roadmap",
   "Blog",
   "CLI",
+  "Git",
   "Internet",
+  "Java",
   "memo"
  ]
 }

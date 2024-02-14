@@ -4,8 +4,9 @@
  "summary": "",
  "parent": "index",
  "url": "/wiki/CLI",
- "updated": "2022-10-03 23:43:52 +0900",
+ "updated": "2024-02-14 21:18:26 +0900",
  "children": [
-  "CLI/traceroute"
+  "CLI/traceroute",
+  "CLI/tree"
  ]
 }

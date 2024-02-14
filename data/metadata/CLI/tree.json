@@ -1,0 +1,9 @@
+{
+ "type": "wiki",
+ "title": "tree 명령어",
+ "summary": "디렉토리를 트리 구조로",
+ "parent": "CLI",
+ "url": "/wiki/CLI/tree",
+ "updated": "2024-02-14 21:02:42 +0900",
+ "children": []
+}

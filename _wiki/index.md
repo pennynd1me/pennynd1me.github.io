@@ -4,7 +4,7 @@ title   : wiki
 toc     : true
 public  : true
 comment : false
-updated : 2022-12-16 18:39:11 +0900
+updated : 2024-02-14 21:20:22 +0900
 regenerate: true
 ---
 
@@ -29,8 +29,9 @@ regenerate: true
 ## [[CLI]]
 
 - [[/CLI/traceroute]]
+- [[/CLI/tree]]
 
-## [[Blog]]
+## [[Git]]
 
-- [[create-wiki]]
----
+## [[Java]]
+
