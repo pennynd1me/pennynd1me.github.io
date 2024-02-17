@@ -5,5 +5,7 @@
  "parent": "index",
  "url": "/wiki/Git",
  "updated": "2024-02-14 21:18:46 +0900",
- "children": []
+ "children": [
+  "git-cheat-sheet"
+ ]
 }

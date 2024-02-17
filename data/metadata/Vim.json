@@ -1,0 +1,11 @@
+{
+ "type": "wiki",
+ "title": "Vim",
+ "summary": "Vim을 익히자",
+ "parent": "index",
+ "url": "/wiki/Vim",
+ "updated": "2024-02-14 22:58:30 +0900",
+ "children": [
+  "vim-tutorial"
+ ]
+}

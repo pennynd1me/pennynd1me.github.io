@@ -4,7 +4,7 @@ title   : wiki
 toc     : true
 public  : true
 comment : false
-updated : 2024-02-14 21:20:22 +0900
+updated : 2024-02-16 19:45:53 +0900
 regenerate: true
 ---
 
@@ -33,5 +33,10 @@ regenerate: true
 
 ## [[Git]]
 
+- [[git-cheat-sheet]]
+
 ## [[Java]]
 
+## [[Vim]]
+
+- [[vim-tutorial]]
